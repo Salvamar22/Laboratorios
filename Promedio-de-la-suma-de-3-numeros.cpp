@@ -22,5 +22,6 @@ using namespace std;
 
   cout <<"Valor promedio es: " <<sum/d << endl;
   
+  cout <<"Formula utilizada a+b+c/3.0" << endl;
     
 }
