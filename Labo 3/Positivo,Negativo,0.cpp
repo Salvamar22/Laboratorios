@@ -1,0 +1,25 @@
+//Un número es positivo negativo o 0
+#include "iostream"
+using namespace std;
+int main()
+{
+  {
+float a;
+cout << "Ingrese el numero del cual desea saber si es par o impar: " << endl;
+cin>> a;
+
+
+if(a == 0){
+		cout <<"Neutro"<<endl;
+	}else if(a > 0){
+		cout<<"Positivo"<<endl;
+	}else if (a < 0){
+	
+		cout<<"Negativo"<<endl;
+	}
+  return 0;
+}
+
+
+
+}
