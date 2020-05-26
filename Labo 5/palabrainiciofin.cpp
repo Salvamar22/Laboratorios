@@ -6,6 +6,7 @@ int main()
 cout<<"Ingrese su palabra"<<endl;
 cin>>palabra;
 palabra.at(0);
-cout<<"tus letras inicial y final son: "  <<palabra.at(0) << " y " << palabra.at(0);
+palabra.length();
+cout<<"tus letras inicial y final son: "  <<palabra.at(0) << " y " << palabra.at(palabra.length()-1);
 return 0;
 }
